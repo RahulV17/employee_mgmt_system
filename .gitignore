@@ -16,6 +16,7 @@ Thumbs.db
 # Logs
 *.log
 
-# Secrets
+# Secrets / local config
+db.properties
 db.properties.local
 *.env

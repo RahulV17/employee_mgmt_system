@@ -13,7 +13,7 @@ Console-based Java application for managing employees in MySQL using JDBC.
 
 ## Setup
 1. Run `mysql -u root -p < src/main/resources/employee_setup.sql`
-2. Edit `src/main/resources/db.properties` with your DB credentials.
+2. Copy `src/main/resources/db.properties.example` to `src/main/resources/db.properties` and fill in your DB credentials.
 3. Build: `mvn compile`
 4. Run: `mvn exec:java -Dexec.mainClass=employee_management.EmployeeApp`
    or `java -cp target/classes;mysql-connector-j-8.0.33.jar employee_management.EmployeeApp`
