@@ -1,0 +1,21 @@
+# Compiled classes
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+db.properties.local
+*.env
