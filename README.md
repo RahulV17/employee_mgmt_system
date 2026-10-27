@@ -22,7 +22,7 @@ Console-based Java application for managing employees in MySQL using JDBC.
 - `model/Employee` — entity
 - `dao/EmployeeDAO` — SQL operations (PreparedStatement/Statement)
 - `service/EmployeeService` — business logic + error handling
-- `util/DBConnection` — connection factory (reads db.properties)
+- `util/EmployeeDBConnection` — connection factory (reads db.properties)
 - `EmployeeApp` — menu / main
 
 ## Package layout
@@ -32,5 +32,5 @@ employee_management/
 ├── model/Employee.java
 ├── dao/EmployeeDAO.java
 ├── service/EmployeeService.java
-└── util/DBConnection.java
+└── util/EmployeeDBConnection.java
 ```
